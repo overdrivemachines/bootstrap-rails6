@@ -38,3 +38,8 @@ Sample app to add Bootstrap 5, JavaScript and Images to Rails 6.1 App
   $ mkdir -p images && wget -O images/test.jpg http://lorempixel.com/640/480/
 
   ```
+
+  3. Create home controller with index action
+  ```bash
+  $ rails g controller home index
+  ```
